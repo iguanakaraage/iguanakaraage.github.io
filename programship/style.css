@@ -213,8 +213,9 @@ article h3 {
 }
 article p {
     text-align: left;
-    font-size: medium;
-    color: #333;
+    font-size: large;
+    color: #111;
+    text-shadow: 1px 1px 3px #fff;
     letter-spacing: 1px;
 }
 
