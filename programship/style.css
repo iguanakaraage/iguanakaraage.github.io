@@ -167,7 +167,7 @@ body {
 
 .navi li + li {
     border-left: 3px dotted #e7e0e0;
-    padding: 0 2% 0 2%;
+    padding: 0 3% 0 3%;
 
 }
 
@@ -389,7 +389,6 @@ article p {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #white;
     text-shadow: 1px 2px 3px black;
     transition: .3s;
     -webkit-transform: scale(1);
