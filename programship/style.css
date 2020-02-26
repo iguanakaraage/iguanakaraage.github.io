@@ -246,7 +246,7 @@ article p {
 }
 
 .archive-header {
-    margin-left: 5%;
+    margin: auto;
     padding: 3%;
     font-family: 'Cabin Sketch', cursive;
     
@@ -323,15 +323,30 @@ article p {
     margin-top: 3%;
 }
 
-.archive-main p img {
-    width: 90%;
-    text-align: center;
-}
-
 .archive-main a {
     color: grey;
 }
 
+figure .archivesimg100 img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+figure .archivesimg90 img {
+    position: relative;
+    width: 90%;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: small;
+    color: #999;
+    text-align: center;
+    padding-bottom: 1%;
+    margin: 0;
+}
 
 @media screen and (max-width: 678px) {
 
