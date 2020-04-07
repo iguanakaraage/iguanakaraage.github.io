@@ -59,7 +59,7 @@ body {
     color: #a99f9f;
 }
 
-.background {
+.background video{
     top: 0;
     bottom: 0;
     position: fixed;
@@ -90,7 +90,9 @@ body {
 }
 
 .slide img {
-    width: 100%;
+    width: 1280px;
+    height: 720px;
+    object-fit: cover;
     filter: blur(2px) sepia(10%);
     z-index: 99;
 }
@@ -227,6 +229,14 @@ article p {
     text-align: right;
 }
 
+.index_concept {
+    margin-top: 5%;
+}
+
+.index_concept p {
+    text-align: center;
+}
+
 .footer {
     color: #555;
     padding-top: 1%;
@@ -319,21 +329,28 @@ article p {
     color: #555;
 }
 
-.archive-main p {
-    margin-top: 3%;
-}
-
-.archive-main a {
-    color: grey;
-}
-
-figure .archivesimg100 img {
+.archive-main img {
     position: relative;
     width: 100%;
     text-align: center;
 }
 
-figure .archivesimg90 img {
+.archive-main p {
+    margin-top: 3%;
+}
+
+
+.archive-main a {
+    color: grey;
+}
+
+.archive-main figure.archivesimg100 img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.archive-main figure.archivesimg90 img {
     position: relative;
     width: 90%;
     text-align: center;
