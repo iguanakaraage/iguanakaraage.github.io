@@ -376,9 +376,12 @@ figcaption {
     bottom: 0;
     position: fixed;
     z-index: -1;
+    width: auto;
     height: 100%;
     filter: blur(5px) saturate(0) sepia(5%) brightness(110%);
 }
+
+
 
 .photo {
     overflow: hidden;
@@ -394,8 +397,9 @@ figcaption {
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
     width: auto;
-    height: 100%;
+    height: 720px;
 }
+
 
 .slick-slide .slide-caption a {
     top: 40%;
