@@ -143,16 +143,16 @@ p {
 }
 /*各背景の画像*/
 .img-bg-01 {
-  background-image: url('data/background.jpg');
+  background-image: url('{{ .Site.BaseURL }}data/background.jpg');
 }
 .img-bg-02 {
-  background-image: url('data/background2.jpg');
+  background-image: url('{{ .Site.BaseURL }}data/background2.jpg');
 }
 .img-bg-03 {
-  background-image: url('data/background3.jpg');
+  background-image: url('{{ .Site.BaseURL }}data/background3.jpg');
 }
 .img-bg-04 {
-  background-image: url('data/background4.jpg');
+  background-image: url('{{ .Site.BaseURL }}data/background4.jpg');
 }
 
 .photo-list {
